@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  tb-rest:
+    build:
+      context: .
+    ports:
+      - "6666:6666"
+    restart: always
